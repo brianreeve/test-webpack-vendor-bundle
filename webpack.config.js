@@ -10,6 +10,7 @@ module.exports = {
     path: path.resolve('./') //path.resolve(__dirname, '/public/dist')
   },
   optimization: {
+    runtimeChunk: 'single',
     splitChunks: {
       chunks: 'all'
     }
