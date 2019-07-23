@@ -3,7 +3,7 @@
  * @description A LitElement boilerplate.
  */
 
-import { LitElement, html, css } from '@polymer/lit-element';
+import { LitElement, html, css } from 'lit-element';
 import '@polymer/iron-icon';
 import '@polymer/iron-icons';
 
