@@ -1,0 +1,33 @@
+{
+  "name": "test-webpack-vendor-bundle",
+  "version": "1.0.0",
+  "description": "Testing using webpack vendor bundle.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "webpack",
+    "serve": "simplehttpserver ."
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/brianreeve/test-webpack-vendor-bundle.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/brianreeve/test-webpack-vendor-bundle/issues"
+  },
+  "homepage": "https://github.com/brianreeve/test-webpack-vendor-bundle#readme",
+  "dependencies": {
+    "@polymer/iron-icon": "^3.0.1",
+    "@polymer/iron-icons": "^3.0.1",
+    "@polymer/lit-element": "^0.7.1",
+    "@vaadin/vaadin-app-layout": "^2.0.2",
+    "@vaadin/vaadin-tabs": "^3.0.4"
+  },
+  "devDependencies": {
+    "simplehttpserver": "^0.3.0",
+    "webpack": "^4.36.1",
+    "webpack-cli": "^3.3.6"
+  }
+}
