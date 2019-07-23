@@ -7,6 +7,4 @@ npm run build
 npm run serve
 ```
 
-Then, open http://localhost:8000/ in a browser.
-
-Currently, it appears that
+Then, open http://localhost:8000/ in a browser and see the error in the developer tools console.
