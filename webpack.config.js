@@ -1,17 +1,22 @@
 const path = require('path');
+const HtmlWebpackPlugin = require('html-webpack-plugin');
 
 module.exports = {
   entry: {
-    layout: './src/layout-imports.js',
-    myComponent: './src/my-component.js'
+    main: ['./src/layout-imports.js', './src/my-component.js'],
   },
   output: {
-    filename: './dist/[name].bundle.js',
+    filename: './dist/index_bundle.js',
     path: path.resolve('./') //path.resolve(__dirname, '/public/dist')
   },
   optimization: {
     splitChunks: {
       chunks: 'all'
     }
-  }
+  },
+    plugins: [
+        new HtmlWebpackPlugin({
+            template: './index-template.html',
+        })
+    ]
 };
