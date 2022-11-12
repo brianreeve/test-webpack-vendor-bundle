@@ -28,6 +28,6 @@
   "devDependencies": {
     "simplehttpserver": "^0.3.0",
     "webpack": "^4.36.1",
-    "webpack-cli": "^3.3.6"
+    "webpack-cli": "^3.3.12"
   }
 }
